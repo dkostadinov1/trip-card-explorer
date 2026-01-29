@@ -1,10 +1,84 @@
-[
-  {
-    "id": 1,
-    "name": "Paris Getaway",
-    "image": "/images/paris.jpg",
-    "short_description": "Romantic city escape.",
-    "long_description": "Explore museums, cafes, and historic streets.",
-    "rating": 4.8
-  }
-]
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "Grand Canyon National Park",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "description": "Vast red rock canyon carved by the Colorado River.",
+      "long_description": "Stretching 277 miles long and over a mile deep, the Grand Canyon reveals nearly two billion years of Earth's history through its colorful layers of rock. Visitors can hike, raft, or simply take in the breathtaking views from the rim, watching the light shift across the canyon walls throughout the day.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Carhenge",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "description": "Stonehenge replica made entirely from vintage cars.",
+      "long_description": "Located near Alliance, Nebraska, Carhenge recreates the famous English monument using 38 old automobiles painted gray and arranged in the same proportions as the original. It’s a quirky celebration of both art and Americana that attracts thousands of visitors each year.",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Joshua Tree National Park",
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "description": "Iconic desert park known for its unique Joshua trees.",
+      "long_description": "Where the Mojave and Colorado deserts meet, Joshua Tree National Park is a land of rugged rock formations and stark desert beauty. Named for its spiky, twisted trees, the park offers world-class climbing, stargazing, and the kind of silence that’s hard to find anywhere else.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "World’s Largest Ball of Twine",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      "description": "A roadside legend in Cawker City, Kansas.",
+      "long_description": "Started by a single resident in 1953, this enormous ball of sisal twine has been growing ever since, thanks to contributions from locals and travelers alike. It stands as a living monument to small-town pride, oddity, and community spirit.",
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "name": "Mount Rushmore",
+      "image": "https://images.unsplash.com/photo-1586974772928-9e4d0efcc9ab",
+      "description": "Famous presidential monument carved into granite.",
+      "long_description": "Sculpted into the Black Hills of South Dakota, Mount Rushmore features the faces of Washington, Jefferson, Roosevelt, and Lincoln. The monument took 14 years to complete and stands as a tribute to the nation’s founding, growth, and preservation.",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "name": "Salvation Mountain",
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "description": "A technicolor art installation in the desert.",
+      "long_description": "Created by artist Leonard Knight, Salvation Mountain is a massive, hand-built monument proclaiming love and faith through bright paint, adobe, and straw. Its kaleidoscope colors and handmade details make it one of California’s most photographed outsider art sites.",
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "name": "Antelope Canyon",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+      "description": "A sandstone slot canyon of swirling colors.",
+      "long_description": "Carved by centuries of flash flooding, Antelope Canyon in Arizona is a masterpiece of nature’s sculpting. Light beams filter through narrow openings, illuminating the orange and purple waves of sandstone, creating an otherworldly atmosphere beloved by photographers.",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "name": "Cadillac Ranch",
+      "image": "https://images.unsplash.com/photo-1614463161951-c33c6bdb2d58",
+      "description": "Ten Cadillacs buried nose-first in the Texas desert.",
+      "long_description": "A public art installation outside Amarillo, Cadillac Ranch was created in 1974 by a group called Ant Farm. The half-buried cars span the evolution of the Cadillac tailfin, and visitors are encouraged to add their own spray-painted art, keeping the exhibit ever-changing.",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "name": "Devils Tower",
+      "image": "https://images.unsplash.com/photo-1536334720751-0e4a3f2b7a0e",
+      "description": "Towering volcanic monolith in Wyoming.",
+      "long_description": "Rising dramatically from the plains of Wyoming, Devils Tower is a striking natural formation revered by Native American tribes and known as the nation’s first national monument. Its fluted columns are a favorite among climbers and photographers alike.",
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "name": "Roswell UFO Museum",
+      "image": "https://images.unsplash.com/photo-1526498460520-4c246339dccb",
+      "description": "Dive into UFO lore and alien encounters.",
+      "long_description": "The International UFO Museum in Roswell, New Mexico explores the mystery of the alleged 1947 UFO crash. Packed with exhibits, photos, and first-hand accounts, it’s a pilgrimage site for believers, skeptics, and pop-culture enthusiasts alike.",
+      "rating": 3
+    }
+  ]
+}

@@ -7,7 +7,7 @@ type Trip = {
   id: number;
   name: string;
   image: string;
-  short_description: string;
+  description: string;
   long_description: string;
   rating: number;
 };
@@ -24,9 +24,11 @@ export default function Home() {
     async function fetchTrips() {
       try {
         const res = await fetch('/data/data.json');
-        if (!res.ok) throw new Error('Failed to load trips');
+        if (!res.ok) {
+          throw new Error('Failed to load trips');
+        }
         const data = await res.json();
-        setTrips(data);
+        setTrips(data.trips);
       } catch {
         setError('Could not fetch trip data');
       } finally {
@@ -58,7 +60,7 @@ export default function Home() {
 
   return (
       <main style={{ padding: 24 }}>
-        <h1>Trips</h1>
+        <h1>Trip Card Explorer</h1>
 
         <div style={{ display: 'flex', gap: 12, marginTop: 16 }}>
           <input

@@ -6,7 +6,7 @@ type Trip = {
     id: number;
     name: string;
     image: string;
-    short_description: string;
+    description: string;
     long_description: string;
     rating: number;
 };
@@ -29,7 +29,7 @@ export default function TripCard({ trip }: Props) {
 
                 <h3 className={styles.title}>{trip.name}</h3>
                 <p className={styles.rating}>⭐ {trip.rating}</p>
-                <p className={styles.description}>{trip.short_description}</p>
+                <p className={styles.description}>{trip.description}</p>
 
                 <button
                     className={styles.button}
