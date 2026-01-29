@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Paris Getaway",
+    "image": "/images/paris.jpg",
+    "short_description": "Romantic city escape.",
+    "long_description": "Explore museums, cafes, and historic streets.",
+    "rating": 4.8
+  }
+]
