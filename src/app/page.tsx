@@ -60,7 +60,6 @@ export default function Home() {
       <main style={{ padding: 24 }}>
         <h1>Trips</h1>
 
-        {/* Controls */}
         <div style={{ display: 'flex', gap: 12, marginTop: 16 }}>
           <input
               type="text"
